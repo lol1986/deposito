@@ -59,6 +59,7 @@ public class DepositoCombustibleTest{
 		assertEquals(false,bol);
 	}
 	
+	@Test
 		//4.2 Lo probamos cuando si está lleno
 	public void testEstaLlenoSi() {
 		deposito= new DepositoCombustible(40,40);
